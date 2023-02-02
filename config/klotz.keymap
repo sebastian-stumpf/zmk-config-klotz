@@ -102,7 +102,7 @@
                     bindings = <
     &kp C_VOL_UP &none &kp C_PREV  &kp C_PP        &kp C_NEXT         &reset   &none     &bt BT_PRV  &bt BT_NXT &bt BT_CLR
     &kp C_VOL_DN &none &kp         &none           &none              &none    &none     &none       &none      &none
-    &kp C_MUTE   &none &kp         &kp LC(LS(F11)) &kp LS(LA(INS))    &none    &none     &none       &none      &none
+    &kp C_MUTE   &none &kp         &none           &none              &none    &none     &none       &none      &none
                                    &trans          &trans             &trans   &trans
                         >;
                     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

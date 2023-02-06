@@ -36,23 +36,13 @@
                     label= "BASE";
                     bindings = <
     &kp DE_Q       &kp DE_W       &kp DE_E       &kp DE_R    &kp DE_T        &kp DE_Z       &kp DE_U       &kp DE_I       &kp DE_O       &kp DE_P
-    &mt LGUI DE_A  &mt LALT DE_S  &mt LCTRL DE_D &mt LSHFT F &kp DE_R        &kp H          &mt LSHFT DE_J &mt LCTRL DE_K &mt LALT DE_L  &mt LGUI DE_HASH
+    &mt LGUI DE_A  &mt LALT DE_S  &mt LCTRL DE_D &mt LSHFT F &kp DE_G        &kp H          &mt LSHFT DE_J &mt LCTRL DE_K &mt LALT DE_L  &mt LGUI DE_HASH
     &kp DE_Y       &kp DE_X       &kp DE_C       &kp DE_V    &kp DE_B        &kp DE_N       &kp DE_M       &kp DE_COMMA   &kp DE_DOT     &lt OTHER DE_MINUS
                                                  &lt NUM TAB &lt FUN BSPC    &lt NAV SPACE  &lt SYM RET
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
-                sym_layer {
-                    label= "SYM";
-                    bindings = <
-    &kp DE_AT   &kp DE_LPAR &kp DE_RPAR  &kp DE_UDIA  &kp DE_SS       &none    &none     &none      &none    &none
-    &kp DE_BSLS &kp DE_LCBR &kp DE_RCBR  &kp DE_ADIA  &kp DE_ODIA     &none    &kp LSHFT &kp LCTRL  &kp LALT &kp LGUI
-    &kp DE_LT   &kp DE_LBRC &kp DE_RBRC  &kp DE_ASTRK &kp DE_GRV      &none    &none     &none      &none    &none
-                                         &trans       &trans          &trans   &trans
-                        >;
-                    sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-            };
                 sym_layer {
                     label= "SYM";
                     bindings = <
